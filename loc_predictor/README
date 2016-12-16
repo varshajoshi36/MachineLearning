@@ -1,0 +1,15 @@
+Synopsis
+
+This is a Machine Learnig project which predicts profitable locations using matrix factorization.
+
+How to use it?
+
+Add Yelp dataset reviews file in ProcessedData folder. To run the project, edit run.sh. 
+Add parameters to make it run for required set of cities. Run run.sh script. 
+We have already preprocessed data and its available under project. 
+The script will execute python scripts involved in location prediction, executing one by one and providing required arguments.
+After the project is executed, profitable businesses for a give cityare compiled in ProcessedData file - $city_profittable_businesses.json
+
+Test Cases
+
+The project has unit test cases written for every python file. You can execute test cases by running each test case file.

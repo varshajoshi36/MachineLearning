@@ -1,0 +1,16 @@
+#! /usr/bin/python
+#matrix generation variables
+
+mgeneration_single_double = 'double'
+mgeneration_city2 = 'montreal'
+mgeneration_city1 = 'Urbana'
+
+mgeneration_path = '../ProcessedData/'
+mgeneration_matrix_path = '../ProcessedData/montreal_urbana_matrix'
+
+#matrix factorization variables
+
+mfactorization_matrix_file = '../ProcessedData/montreal_urbana_matrix'
+mfactorization_processed_matrix_file = '../ProcessedData/processed_montreal_urbana_matrix'
+
+
